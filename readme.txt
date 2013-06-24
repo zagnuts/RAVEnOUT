@@ -7,10 +7,12 @@ The key goals for the new script include:
 * Ability to load power usage data direct to pvoutput
 * Ability to load data directly to Xively (ex COSM, ex Pachube)
 
-Other planned/wish list features:
+Other planned/wish list features include:
 * More 'error aware' so that cause of issues are easier to identify & resolve
+* Saving data in RRDtool (http://oss.oetiker.ch/rrdtool/) format to enable simple charting on website
+* Able to run as a daemon/background process
 
-Not all features may be available in the first release, but will attempt to have the keys goals.
+Not all features may be available in the first release, but will attempt to achieve the key goals.
 
 ___________________________________________________________________________________________________
 
