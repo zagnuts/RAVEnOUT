@@ -23,6 +23,6 @@ tested.
 
 [To be updated - please be patient. I am having a minor issue in that I'm finding the XML data feed is throwing in
 random characters that is breaking my alpha script when using the XML::Simple module. Not a major stumbling block,
-but annoying.
+but annoying.]
 
 
