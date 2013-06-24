@@ -1,6 +1,6 @@
 V2 of the RAVEn script, now renamed 'RAVEnOUT' and being written in perl [yes I know, but it's in my comfort zone <grin> ]
 
-If all you want is to have status info of power consumption over the past few minutes and/or over the past month, then you may be better off just using the V1 script.
+If all you want is to have status info of power consumption over the past few minutes and/or over the past month, then you may be better off just using the original python based V1 script.
 
 The key goals for the new script include:
 * Ability to save data to a local file for historical use (for example, should you choose in the future to move to a different system for displaying power usage, you can load your history if you want)
