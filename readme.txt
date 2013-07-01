@@ -20,7 +20,7 @@ The below assumes that you have done the other required steps such as:
 * Purchased a RAVEn USB device (http://rainforestautomation.com/raven). Note that it is quite likely that the same script will work with an EMU or EMU-2 device (http://rainforestautomation.com/emu-2) but this has not been tested.
 * Linked it to your smart meter (eg via the UE portal - https://energyeasy.ue.com.au/)
 
-Update - 1 July 2012
+Update - 1 July 2013
 Have resolved the issue with the data - found it was simple null characters so just had to work out how
 to filter them. Have now released the initial version of the script - still a work in progress as will only save
 the data to a CSV file locally, but should not take long to add in support for uploading to external sevices.
