@@ -120,5 +120,5 @@ $test_data = XMLin($HOMEDIR/$DELIVERED);
 my $received = oct($test_data->{SummationReceived})/1000;
 my $delivered = oct($test_data->{SummationDelivered})/1000;
 print LOG Time::Piece::localtime->strftime('%Y%m%d,%R');
-print LOG ",$received,$delivered;$demand\n";
+print LOG ",$received,$delivered,$demand\n";
 close LOG;
