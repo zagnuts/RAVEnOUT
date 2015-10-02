@@ -25,4 +25,17 @@ Have resolved the issue with the data - found it was simple null characters so j
 to filter them. Have now released the initial version of the script - still a work in progress as will only save
 the data to a CSV file locally, but should not take long to add in support for uploading to external sevices.
 
+Update - 2 Oct 2015
+Well, it has been a while. I have a V05 version that I started working on way back when, but ran out of available
+time to finish. I since found a number of people were using the script to upload data to pvoutput, but the way it
+was being used was probably not the best. To try to help those, what I've done is hack the original perl script to
+JUST dump the instantaneous data that the pvoutput 'ravenpost.js' needs, and do that fairly reliably.
 
+To use, just change from RAVEnPOST.pl to RAVEnPV.pl. The data will still be dumped into demand.xml, but it won't
+have all that other stuff in it that could cause the upload to fail. 
+
+If you are not currently using this and want to give it a try, I have a sample upload script as well - just edit it and
+put in your pvoutput details.
+
+Sometime, honest, sometime I'll work on the main script and have it upload the data directly as well as optionally save
+the history to a log file etc etc etc. Cheers.
