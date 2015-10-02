@@ -17,12 +17,12 @@ my $DEMAND    = "demand.xml";      # file name to output instant demand data
 my $PORT      = "/dev/ttyUSB1";    # port to watch
 
 my $port = Device::SerialPort->new($PORT);
-$port->baudrate(115200) || die "failed setting baudrate";
-$port->parity("none")   || die "failed setting parity";
-$port->databits(8)              || die "failed setting databits";
+$port->baudrate(115200)     || die "failed setting baudrate";
+$port->parity("none")       || die "failed setting parity";
+$port->databits(8)          || die "failed setting databits";
 $port->stopbits(1);
-$port->handshake("none")        || die "failed setting handshake";
-$port->write_settings   || die "no settings";
+$port->handshake("none")    || die "failed setting handshake";
+$port->write_settings       || die "no settings";
 #
 my $pass=$port->write("<Command> <Name>get_instantaneous_demand</Name> [<Refresh>Y</Refresh>] </Command>"); # send command to retrieve demand info
 sleep 1;        # wait a second to try to ensure we get data
