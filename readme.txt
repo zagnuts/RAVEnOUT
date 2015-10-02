@@ -31,7 +31,7 @@ time to finish. I since found a number of people were using the script to upload
 was being used was probably not the best. To try to help those, what I've done is hack the original perl script to
 JUST dump the instantaneous data that the pvoutput 'ravenpost.js' needs, and do that fairly reliably.
 
-To use, just change from RAVEnPOST.pl to RAVEnPV.pl. The data will still be dumped into demand.xml, but it won't
+To use, just change from RAVEnOUT.pl to RAVEnPV.pl. The data will still be dumped into demand.xml, but it won't
 have all that other stuff in it that could cause the upload to fail. 
 
 If you are not currently using this and want to give it a try, I have a sample upload script as well - just edit it and
