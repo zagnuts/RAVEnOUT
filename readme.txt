@@ -1,3 +1,7 @@
+** Update - it has been ages since I did anything with this. It still works, amazingly, but I recommend
+checking out https://github.com/popcorncx/raven-mqtt if you have one of these cards, although given that the
+RAVEn itself is no longer available to be purchased, it's pretty unlikely there's many of us out there now!
+
 V2 of the RAVEn script, now renamed 'RAVEnOUT' and being written in perl [yes I know, but it's in my comfort zone <grin> ]
 
 If all you want is to have status info of power consumption over the past few minutes and/or over the past month, then you may be better off just using the original python based V1 script.
